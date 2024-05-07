@@ -57,5 +57,5 @@ crontab -e
 0 0 * * * /usr/bin/python3 /path/to/your/timelapse/script.py
 
 
-##Additional Notes
+## Additional Notes
 This script does not include error handling and assumes that the camera and file system are always in a ready state. For robust production use, consider adding error handling and validation steps.
